@@ -1,0 +1,22 @@
+.bara {
+    display: flex;
+    justify-content: center;
+    height: 100vh; /* Adjust this based on your layout */
+    margin-top: 50px;
+}
+.bara{
+    text-align: center;
+
+}
+body{
+overflow: hidden;
+background-color:green;
+}
+.clear{
+    background-color:red ;
+    margin-top: 40px;
+}
+.besa{
+    text-align: center;
+}
+

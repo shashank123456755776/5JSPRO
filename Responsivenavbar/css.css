@@ -1,0 +1,41 @@
+.navbar1{
+    background-color: red;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav1{
+  margin: 4px;
+}
+.nav2{
+    margin: 4px;
+}
+.nav3{
+    margin: 4px;
+}
+body{
+ margin: 0;
+ padding: 0;
+}
+
+/* apply media queries to make id responsive */
+
+/* Existing CSS */
+
+/* Your existing styles for .navbar1, .nav, .nav1, .nav2, .nav3, and body */
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .nav {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    
+    .nav1, .nav2, .nav3 {
+      margin: 4px 0; /* Adjust margins for smaller screens */
+    }
+  }
+  
